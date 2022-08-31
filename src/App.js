@@ -33,12 +33,7 @@ function App() {
 
 function CardBuilder(props) {
   const cityList = Object.keys(props.citylist)
-  const gameBoard = [];
-  for (let i = 0; i < cityList.length; i++) {
-    const cityName = cityList[i];
-    gameBoard.concat(city);
-  }
-
+  const gameBoard = cityList.map((city => <div><img src={city}/><h3>{city}</h3></div>))
   return gameBoard;
 }
 
