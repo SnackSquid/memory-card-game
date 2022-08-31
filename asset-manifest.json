@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.4d225b4a.css",
+    "main.js": "/memory-card-game/static/js/main.58278cbd.js",
+    "static/js/787.079dd69e.chunk.js": "/memory-card-game/static/js/787.079dd69e.chunk.js",
+    "static/media/adrian-n-Itn-olYoPAg-unsplash.jpg": "/memory-card-game/static/media/adrian-n-Itn-olYoPAg-unsplash.0d95b57a2ba9763eb724.jpg",
+    "static/media/triston-dunn-rfj_wOYQkus-unsplash.jpg": "/memory-card-game/static/media/triston-dunn-rfj_wOYQkus-unsplash.c49f363c78fb1cde4724.jpg",
+    "static/media/eric-francis-bGSQbmlXTP4-unsplash.jpg": "/memory-card-game/static/media/eric-francis-bGSQbmlXTP4-unsplash.c8b8cb3cd00981731bc0.jpg",
+    "static/media/heidi-kaden-6LCen1qDcOw-unsplash.jpg": "/memory-card-game/static/media/heidi-kaden-6LCen1qDcOw-unsplash.08e37acfd55ead737430.jpg",
+    "static/media/mitchell-kmetz-ztVcGTSD8xw-unsplash.jpg": "/memory-card-game/static/media/mitchell-kmetz-ztVcGTSD8xw-unsplash.2d8710c4ff39cf529aca.jpg",
+    "static/media/colin-lloyd-VDpM5hiyTng-unsplash.jpg": "/memory-card-game/static/media/colin-lloyd-VDpM5hiyTng-unsplash.5dbe519aab24fe4d253d.jpg",
+    "static/media/lance-asper-0SQOEnmcuCU-unsplash.jpg": "/memory-card-game/static/media/lance-asper-0SQOEnmcuCU-unsplash.b7aa387c7082f81f7d1e.jpg",
+    "static/media/sawyer-bengtson-tnv84LOjes4-unsplash.jpg": "/memory-card-game/static/media/sawyer-bengtson-tnv84LOjes4-unsplash.959adc4c9c2b36e95ced.jpg",
+    "static/media/mo-F3V8LOjJMYc-unsplash.jpg": "/memory-card-game/static/media/mo-F3V8LOjJMYc-unsplash.5daf63907baeada4484f.jpg",
+    "static/media/gabriel-tovar-VI5zZE102T0-unsplash.jpg": "/memory-card-game/static/media/gabriel-tovar-VI5zZE102T0-unsplash.3ebd6c03a87feece51e0.jpg",
+    "static/media/alejandro-luengo-JPhTqJKB5gk-unsplash.jpg": "/memory-card-game/static/media/alejandro-luengo-JPhTqJKB5gk-unsplash.ac4c0bfa659bdadac6d3.jpg",
+    "static/media/pedro-marroquin--hDsIhpgCdU-unsplash.jpg": "/memory-card-game/static/media/pedro-marroquin--hDsIhpgCdU-unsplash.14306936ad7e2cd91ec0.jpg",
+    "index.html": "/memory-card-game/index.html",
+    "main.4d225b4a.css.map": "/memory-card-game/static/css/main.4d225b4a.css.map",
+    "main.58278cbd.js.map": "/memory-card-game/static/js/main.58278cbd.js.map",
+    "787.079dd69e.chunk.js.map": "/memory-card-game/static/js/787.079dd69e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d225b4a.css",
+    "static/js/main.58278cbd.js"
+  ]
+}
