@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+:root {
+  --shadow: #00000010;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 260px));
+  grid-template-rows: repeat(4, minmax(200px, 260px));
+  justify-content: center;
+  gap: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cardContainer > div {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow: hidden;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: blanchedalmond;
 }
 
-.App-link {
-  color: #61dafb;
+.cardContainer > div > img {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 20px var(--shadow);
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.Fort {
+  content: url(./images/triston-dunn-rfj_wOYQkus-unsplash.jpg);
+  width: 100%;
+}
+
+.Chicago {
+  content: url(./images/adrian-n-Itn-olYoPAg-unsplash.jpg);
+  height: 100%;
+}
+
+.Philadelphia {
+  
 }
