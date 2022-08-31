@@ -1,8 +1,13 @@
 :root {
-  --shadow: #00000010;
+  --shadow: #00000040;
+  --card-bottom: #393D47;
+  --antique-grey: #A5A9A0;
 }
 
-
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
 
 .cardContainer {
   display: grid;
@@ -20,33 +25,91 @@
   overflow: hidden;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  background-color: blanchedalmond;
+  background-color: var(--card-bottom);
+  color: white;
+}
+
+.main {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.cardContainer > div > h3 {
+  padding: 10px
 }
 
 .cardContainer > div > img {
   display: flex;
+  
 }
 
 .header {
   display: flex;
   box-sizing: border-box;
-  padding: 10px;
-  background-color: aliceblue;
+  padding: 15px;
+  background-color: var(--antique-grey);
   box-shadow: 5px 5px 20px var(--shadow);
   margin-bottom: 50px;
   justify-content: space-between;
+  color: white;
 }
 
-.Fort {
+.New.York.City {
   content: url(./images/triston-dunn-rfj_wOYQkus-unsplash.jpg);
   width: 100%;
 }
 
-.Chicago {
+.Houston {
   content: url(./images/adrian-n-Itn-olYoPAg-unsplash.jpg);
   height: 100%;
 }
 
+.Austin {
+  content: url(./images/mitchell-kmetz-ztVcGTSD8xw-unsplash.jpg);
+  height: 100%;
+}
+
+.San.Diego {
+  content: url(./images/alejandro-luengo-JPhTqJKB5gk-unsplash.jpg);
+  height: 100%;
+}
+
 .Philadelphia {
-  
+  content: url(./images/heidi-kaden-6LCen1qDcOw-unsplash.jpg);
+  height: 100%;
+}
+
+.San.Jose {
+  content: url(./images/mo-F3V8LOjJMYc-unsplash.jpg);
+  height: 100%;
+}
+
+.Jacksonville {
+  content: url(./images/lance-asper-0SQOEnmcuCU-unsplash.jpg);
+  height: 100%;
+}
+
+.Chicago {
+  content: url(./images/sawyer-bengtson-tnv84LOjes4-unsplash.jpg);
+  height: 100%;
+}
+
+.Dallas {
+  content: url(./images/gabriel-tovar-VI5zZE102T0-unsplash.jpg);
+  height: 100%;
+}
+
+.Phoenix {
+  content: url(./images/colin-lloyd-VDpM5hiyTng-unsplash.jpg);
+  width: 100%;
+}
+
+.Los.Angeles {
+  content: url(./images/pedro-marroquin--hDsIhpgCdU-unsplash.jpg);
+  width: 100%;
+}
+
+.San.Antonio {
+  content: url(./images/eric-francis-bGSQbmlXTP4-unsplash.jpg);
+  width: 100%;
 }
